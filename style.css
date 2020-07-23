@@ -1,0 +1,27 @@
+h1 {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    opacity: 75%;
+    max-width: 15em;
+    min-width: 15em;
+}
+
+main {
+    font-family: Martel, serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+body {
+    padding: 6em;
+    background-color: #fffbf5;
+}
+
+header {
+    width: 30%;
+    border-top: 3px solid #ccc8c2;
+}
+
+a {
+    text-decoration: ;
+}
