@@ -2,14 +2,14 @@ h1 {
     font-family: Lato, sans-serif;
     font-weight: 400;
     opacity: 75%;
-    max-width: 15em;
-    min-width: 15em;
+    border-top: 3px solid #ccc8c2;
 }
 
-main {
-    font-family: Martel, serif;
-    font-weight: 300;
-    font-size: 1em;
+.wrapper {
+    /*border: 1px dashed red;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 800px;
 }
 
 body {
@@ -18,10 +18,16 @@ body {
 }
 
 header {
-    width: 30%;
-    border-top: 3px solid #ccc8c2;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
-a {
-    text-decoration: ;
+main {
+    font-family: Martel, serif;
+    font-weight: 300;
+    font-size: 1em;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
